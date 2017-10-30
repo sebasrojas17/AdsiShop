@@ -1,0 +1,229 @@
+<!--Breadcrums-->
+<section class="breadcrumbs-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs">
+        <ol class="breadcrumb">
+          <li>
+            <a ui-sref="catalogos">Catalogo</a>
+          </li>
+          <li ui-sref-active="active">
+            <a ui-sref="#">Todos los Productos</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Breadcrums-->
+
+<!-- /Productos-->
+<section class="Productos-container">
+  <div class="container">
+    <div class="row">
+      <!--Filtros-->
+      <div class="col-xs-12 col-md-3">
+        <div class="list-group filtros-toggle" ng-click="showIcon()">
+          <a href="#" id="filtrosToogle" class="list-group-item hidden-md hidden-lg" data-target="#filtros-container" data-toggle="collapse">
+            <h5 class="list-group-item-heading">Filtros<i class="fa fa-chevron-down pull-right"></i></h5>
+          </a>
+        </div>
+        <div id="filtros-container" class="Filtros-container collapse hidden-md hidden-lg">
+          <div class="list-group">
+            <a class="list-group-item active">
+            <h5 class="list-group-item-heading">Categorias</h5>
+          </a>
+          <a class="list-group-item">
+            Ropa <span class="badge pull-rigth">174</span>
+          </a>
+          <a class="list-group-item">
+            Tecnologia <span class="badge pull-rigth">143</span>
+          </a>
+          <a class="list-group-item">
+            Accesorios <span class="badge pull-rigth">130</span>
+          </a>
+          </div>
+          <div class="list-group">
+            <a class="list-group-item active">
+            <h5 class="list-group-item-heading">Color</h5>
+          </a>
+          <a class="list-group-item list-group-item-success">
+            Verde
+          </a>
+          <a class="list-group-item list-group-item-danger">
+            Rojo
+          </a>
+          <a class="list-group-item list-group-item-warning">
+            Amarillo
+          </a>
+          <a class="list-group-item list-group-item-info">
+            Azul
+          </a>
+          </div>
+          <div class="list-group">
+            <a class="list-group-item active">
+            <h5 class="list-group-item-heading">Genero</h5>
+          </a>
+          <a class="list-group-item List-genero">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="f">
+                Masculino
+              </label>
+            </div>
+          </a>
+          <a class="list-group-item List-genero">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="f">
+                Femenino
+              </label>
+            </div>
+          </a>
+          </div>
+        </div>
+      <!-- /Menu no colapse-->
+      <div id="filtros-container" class="Filtros-container collapse visible-md visible-lg">
+        <div class="list-group">
+          <a class="list-group-item active">
+          <h5 class="list-group-item-heading">Categorias</h5>
+        </a>
+        <a class="list-group-item">
+          Ropa <span class="badge pull-rigth">174</span>
+        </a>
+        <a class="list-group-item">
+          Tecnologia <span class="badge pull-rigth">143</span>
+        </a>
+        <a class="list-group-item">
+          Accesorios <span class="badge pull-rigth">130</span>
+        </a>
+        </div>
+        <div class="list-group">
+          <a class="list-group-item active">
+          <h5 class="list-group-item-heading">Color</h5>
+        </a>
+        <a class="list-group-item list-group-item-success">
+          Verde
+        </a>
+        <a class="list-group-item list-group-item-danger">
+          Rojo
+        </a>
+        <a class="list-group-item list-group-item-warning">
+          Amarillo
+        </a>
+        <a class="list-group-item list-group-item-info">
+          Azul
+        </a>
+        </div>
+        <div class="list-group">
+          <a class="list-group-item active">
+          <h5 class="list-group-item-heading">Genero</h5>
+        </a>
+        <a class="list-group-item List-genero">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="f">
+              Masculino
+            </label>
+          </div>
+        </a>
+        <a class="list-group-item List-genero">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="f">
+              Femenino
+            </label>
+          </div>
+        </a>
+        </div>
+      </div>
+      <!-- /Menu no colapse-->
+    </div>
+      <!-- /Filtros-->
+
+      <!--Productos-->
+      <div class="col-xs-12 col-md-9">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="thumbnail">
+              <img src="" alt="Producto1" class="img-thumbnail top">
+              <div class="caption">
+                <h4>Producto 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="thumbnail">
+            <img src="" alt="Producto1" class="img-thumbnail top">
+            <div class="caption">
+              <h4>Producto 1</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="thumbnail">
+          <img src="" alt="Producto1" class="img-thumbnail top">
+          <div class="caption">
+            <h4>Producto 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <div class="thumbnail">
+        <img src="" alt="Producto1" class="img-thumbnail top">
+        <div class="caption">
+          <h4>Producto 1</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-lg-4">
+    <div class="thumbnail">
+      <img src="" alt="Producto1" class="img-thumbnail top">
+      <div class="caption">
+        <h4>Producto 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+      </div>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4">
+  <div class="thumbnail">
+    <img src="" alt="Producto1" class="img-thumbnail top">
+    <div class="caption">
+      <h4>Producto 1</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+    </div>
+</div>
+</div>
+      </div>
+      <!-- /Productos-->
+  </div>
+ </div>
+</section>
+<!-- /Productos-->
+<!--/Catalogo-->
+<div class="modal fade" id="modalOferta">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+        <h3 class="modal-tittle">Oferta Exclusiva</h3>
+      </div>
+       <div class="modal-body">
+         Regístrate hoy y recibe 15.000 mil pesos de descuento!
+         <form class="form">
+           <div class="form-group">
+            <input type="email" class="form-control" placeholder="tu@correo.com">
+            <small class="form-text text-muted">No compartiremos tu informacion con nadie mas</small>
+           </div>
+           <button type="submit" class="btn btn-success">Regístrate</button>
+           <button id="btnNoregistrar" class="btn btn-warning" data-dismiss="modal" ng-click="vm.noMostarModal()">No, quiero tomar el descuento</button>
+         </form>
+       </div>
+     </div>
+  </div>
+</div>
+<!--/Catalogo-->
